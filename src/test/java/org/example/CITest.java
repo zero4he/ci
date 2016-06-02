@@ -22,4 +22,10 @@ public class CITest {
         CI ci = new CI();
         Assert.assertEquals("Hello World", ci.say("Hello World"));
     }
+
+    @Test
+    public void testSay2() throws Exception {
+        CI ci = new CI();
+        Assert.assertEquals("Hello World2", ci.say("Hello World"));
+    }
 }
